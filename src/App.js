@@ -1,25 +1,24 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import About from "./pages/about.js";
+import Blog from "./pages/blog.js";
+import Projects from "./pages/projects.js";
+import NoMatch from "./pages/no-match.js";
+
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div>
+        <Router>
+          <Switch>
+            <Route path="/blog" component={Blog} />
+            <Route path="/projects/:id" component={Projects} />
+            <Route path="/about" component={About} />
+            <Route exact path="/" component={About} />
+            <Route component={NoMatch}/>
+        </Switch>
+        </Router>
       </div>
     );
   }
