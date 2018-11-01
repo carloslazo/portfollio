@@ -10,8 +10,8 @@ function ProjectCard(props) {
     <div className="Project-card-text">
     <p>Genius Annotations</p>
     <p><b>Link</b>: <a href="https://genius-web-app.herokuapp.com/">https://genius-web-app.herokuapp.com/</a></p>
-    <p><b>Technologies</b>: React js</p>
-    <p><b>Overview</b>: With some fantastic branding and design from Cork-based studio Hurrah Hurrah I helped OMP Architects build a responsive, fast and flexible portfolio website for their extensive list of projects.
+    <p><b>Technologies</b>: React, Javascript</p>
+    <p><b>Overview</b>: Using the Genius.com API I built a responsive React application that renders a grid of lyric annotations for easy viewing.
 </p>
 
     </div>
