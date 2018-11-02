@@ -5,13 +5,13 @@ function ProjectCard(props) {
     <div className="Project-cards-page-grid">
     <img
       className="Project-cards-picture"
-      src={require("../pictures/genius2.png")}
+      src={require(`../pictures/${props.picture}.png`)}
     />
     <div className="Project-card-text">
     <p>Genius Annotations</p>
-    <p><b>Link</b>: <a href="https://genius-web-app.herokuapp.com/">https://genius-web-app.herokuapp.com/</a></p>
-    <p><b>Technologies</b>: React, Javascript</p>
-    <p><b>Overview</b>: Using the Genius.com API I built a responsive React application that renders a grid of lyric annotations for easy viewing.
+    <p><b>Link</b>: <a href={props.link}>{props.link}</a></p>
+    <p><b>Technologies</b>: {props.technologies}</p>
+    <p><b>Overview</b>: {props.overview}
 </p>
 
     </div>

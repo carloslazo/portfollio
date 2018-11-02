@@ -4,13 +4,13 @@ function AboutCard(props) {
   return (
     <div className="About-card-container">
       <p>
-        Hey, I’m a software developer from San Diego, CA. I can help you build
-        your next product.
+        Hey, I’m a front end developer from San Diego, CA. I can help you build your next dynamic web product.
+
       </p>
       <p>
-        I design, build, operate & sometimes rescue full-stack web applications.
+        I design, build, and bring design wireframes to life using React JS, HTML and CSS.
       </p>
-      <p>Have a project you’d like to discuss?</p>
+      <p>Have something in mind?</p>
       <p>Let’s chat clazo@berkeley.edu</p>
     </div>
   );

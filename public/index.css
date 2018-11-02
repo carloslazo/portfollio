@@ -323,19 +323,16 @@ body {
 
 .Thinking-page-grid-1{
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr .2fr 1fr;
   margin: 40px 20px 40px 20px;
+  font-size: 16px;
 }
 .Thinking-page-grid-1 p{
-  font-size: 20px1;
+  justify-self: center;
+  align-self: center;
 }
 
 .Thinking-page-title{
   font-size: 40px;
-  text-decoration: underline;
-  text-decoration-color: #689DE4;
-  text-decoration-style:  dashed;
 }
 
 .design-square{
