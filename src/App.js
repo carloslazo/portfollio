@@ -27,6 +27,6 @@ let http = require("http");
 setInterval(function() {
     http.get("https://carlos-lazo-portfolio.herokuapp.com/");
     http.get("https://genius-web-app.herokuapp.com/");
-}, 500000); // every 5 minutes (300000)
+}, 300000); // every 5 minutes (300000)
 
 export default App;
