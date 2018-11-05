@@ -5,15 +5,8 @@ import DesignNav from "../components/design-nav.js";
 import ThinkingPage from "../components/thinking-page.js";
 import DesignSquarePicture from "../components/design-square-picture.js";
 import DesignWidePicture from "../components/design-wide-picture.js";
-
-import genius2 from "../pictures/genius2.png";
-import wide from "../pictures/wide.png";
-import e1w from "../pictures/e1w.png";
-import wideCard from "../pictures/wideCard.png";
-import squarePr from "../pictures/squarePr.png";
-import grid1 from "../pictures/grid1.png";
-import halfpage from "../pictures/halfpage.png";
-import wideDefine from "../pictures/wideDefine.png";
+//look into dynamic import
+import {genius2, wide, e1w, wideCard, squarePr, grid1, halfpage, wideDefine} from "../components/import-pictures.js";
 
 class Projects extends Component {
   componentDidMount() {
@@ -28,6 +21,7 @@ class Projects extends Component {
           <>
             <ProjectCard
               link={designPage[page]["link"]}
+              github={designPage[page]["github"]}
               picture={designPage[page]["picture"]}
               technologies={designPage[page]["technologies"]}
               overview={designPage[page]["overview"]}
@@ -48,10 +42,12 @@ let designPage = {
   //genius App
   1: {
     link: "https://genius-web-app.herokuapp.com/",
+    github: "https://github.com/carloslazo/genius-web-app",
     picture: "genius2",
     technologies: "React, Javascript, HTML, CSS, Adobe XD",
     overview:
       "Using the Genius.com API I built a responsive React application that renders a grid of lyric annotations for easy viewing.",
+
 
     color: ["#689DE4", "#5DA965", "#EF933F", "#E7613B", "#932A24"],
     e_p1:
@@ -64,13 +60,14 @@ let designPage = {
         <ThinkingPage
           title="Empathy"
           id="empathy"
+          color ="#689DE4"
           children={
             <div className="Thinking-page-grid-1">
               <DesignSquarePicture picture={genius2} color={this.color[0]} />
               <p>{this.e_p1}</p>
               <DesignWidePicture picture={e1w} color={this.color[0]} />
-              <p className="wide">{this.e_p2}</p>
-              <p className="wide">
+              <p>{this.e_p2}</p>
+              <p>
                 {this.e_p3} {this.e_p4}
               </p>
             </div>
@@ -85,10 +82,11 @@ let designPage = {
         <ThinkingPage
           title="Define"
           id="define"
+          color ="#5AAA62"
           children={
             <div className="Thinking-page-grid-1">
               <DesignSquarePicture picture={grid1} color={this.color[1]} />
-              <p style={{ gridColumn: 2 }}>{this.d_p1}</p>
+              <p>{this.d_p1}</p>
             </div>
           }
         />
@@ -100,11 +98,12 @@ let designPage = {
         <ThinkingPage
           title="Ideate"
           id="ideate"
+          color="#EF933F"
           children={
             <div className="Thinking-page-grid-1">
               <DesignWidePicture picture={wideDefine} color={this.color[3]} />
-              <p className="wide">{this.i_p1}</p>
-              <ul className="wide">
+              <p>{this.i_p1}</p>
+              <ul>
                 <li>
                   {" "}
                   Annotations will be loaded based of categories: artists,
@@ -138,12 +137,13 @@ let designPage = {
         <ThinkingPage
           title="Prototype"
           id="prototype"
+          color="#E7613B"
           children={
             <div className="Thinking-page-grid-1">
               <DesignSquarePicture picture={squarePr} color={this.color[3]} />
               <p>{this.p_p1}</p>
               <DesignWidePicture picture={wideCard} color={this.color[3]} />
-              <p className="wide">{this.p_p2}</p>
+              <p>{this.p_p2}</p>
             </div>
           }
         />
@@ -156,10 +156,11 @@ let designPage = {
         <ThinkingPage
           title="Test"
           id="test"
+          color="#932A24"
           children={
             <div className="Thinking-page-grid-1">
               <DesignWidePicture picture={halfpage} color={this.color[4]} />
-              <p className="wide">{this.t_p1}</p>
+              <p>{this.t_p1}</p>
             </div>
           }
         />
@@ -168,6 +169,7 @@ let designPage = {
   },
   2: {
     link: "https://carlos-lazo-portfolio.herokuapp.com/",
+    github: "https://github.com/carloslazo/portfollio",
     picture: "portfollio",
     technologies: "React, Javascript, HTML, CSS, Adobe XD",
     overview:
@@ -189,8 +191,8 @@ let designPage = {
           //     <DesignSquarePicture picture={genius2} color={this.color[0]} />
           //     <p>{this.e_p1}</p>
           //     <DesignWidePicture picture={e1w} color={this.color[0]} />
-          //     <p className="wide">{this.e_p2}</p>
-          //     <p className="wide">{this.e_p3} {this.e_p4}</p>
+          //     <p>{this.e_p2}</p>
+          //     <p>{this.e_p3} {this.e_p4}</p>
           //
           //   </div>
           // }
@@ -222,8 +224,8 @@ let designPage = {
           // children={
           //   <div className="Thinking-page-grid-1">
           //     <DesignWidePicture picture={wideDefine} color={this.color[3]} />
-          //     <p className="wide">{this.i_p1}</p>
-          //     <ul className="wide">
+          //     <p>{this.i_p1}</p>
+          //     <ul>
           //       <li > Annotations will be loaded based of categories: artists, genres ect…</li>
           //       <li>UI will be comprised of a grid as opposed to being based of the lyric structure.</li>
           //       <li>No clicking involved in seeing other annotations, instead will scroll to see more.</li>
@@ -248,7 +250,7 @@ let designPage = {
           //     <DesignSquarePicture picture={squarePr} color={this.color[3]} />
           //     <p>{this.p_p1}</p>
           //     <DesignWidePicture picture={wideCard} color={this.color[3]} />
-          //     <p className="wide">{this.p_p2}</p>
+          //     <p>{this.p_p2}</p>
           //   </div>
           // }
         />
@@ -264,7 +266,7 @@ let designPage = {
           // children={
           //   <div className="Thinking-page-grid-1">
           //     <DesignWidePicture picture={halfpage} color={this.color[4]} />
-          //     <p className="wide">{this.t_p1}</p>
+          //     <p>{this.t_p1}</p>
           //   </div>
           // }
         />

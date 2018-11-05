@@ -4,6 +4,7 @@ function ThinkingPage(props){
     <div id={props.id}>
     <div className="Thinking-page-title">
     {props.title}
+    <div className="Circle" style={{backgroundColor: props.color}}/>
     </div>
     {props.children}
     </div>

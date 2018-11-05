@@ -9,7 +9,8 @@ function ProjectCard(props) {
     />
     <div className="Project-card-text">
     <p>Genius Annotations</p>
-    <p><b>Link</b>: <a href={props.link}>{props.link}</a></p>
+    <p><b>Link</b>: <a href={props.link} target="_blank">{props.link}</a></p>
+    <p><b>Github</b>: <a href={props.github} target="_blank">{props.github}</a></p>
     <p><b>Technologies</b>: {props.technologies}</p>
     <p><b>Overview</b>: {props.overview}
 </p>

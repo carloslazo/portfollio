@@ -1,1 +1,9 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 768.08 513.29"><defs><style>.cls-1{fill:#caa7e5;stroke:#fff;stroke-miterlimit:10;stroke-width:0.76px;}</style></defs><title>Untitled-1</title><polygon class="cls-1" points="0.54 384.04 384.04 0.54 767.54 384.04 733.87 417.7 384.04 67.86 34.2 417.7 0.54 384.04"/><polygon class="cls-1" points="0.54 479.09 384.04 95.59 767.54 479.09 733.87 512.75 384.04 162.91 34.2 512.75 0.54 479.09"/></svg>
+<svg id="Layer_1" data-name="Layer 1"
+xmlns="http://www.w3.org/2000/svg"
+viewBox="0 0 768.08 513.29"><defs>
+  <style>.cls-1{fill:#caa7e5;stroke:#fff;stroke-miterlimit:10;stroke-width:0.76px;}</style>
+</defs><title>Untitled-1</title>
+<polygon class="cls-1"
+points="0.54 384.04 384.04 0.54 767.54 384.04 733.87 417.7 384.04 67.86 34.2 417.7 0.54 384.04"/>
+<polygon class="cls-1" points="0.54 479.09 384.04 95.59 767.54 479.09 733.87 512.75 384.04 162.91 34.2 512.75 0.54 479.09"/>
+</svg>
