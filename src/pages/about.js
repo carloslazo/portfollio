@@ -21,6 +21,12 @@ class About extends Component {
                 page="2"
                 color="#2859A2"
               />
+              <ProjectCards
+                picture="checkmark"
+                text="View recipe project details"
+                page="3"
+                color="#7bac20"
+              />
             </div>
           </>
         }
