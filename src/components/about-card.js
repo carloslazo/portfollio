@@ -11,7 +11,7 @@ function AboutCard(props) {
         I design, build, and bring design wireframes to life using React JS, HTML and CSS.
       </p>
       <p>Have something in mind?</p>
-      <p>Let’s chat clazo@berkeley.edu</p>
+      <p>Let’s chat clz1104@gmail.com</p>
     </div>
   );
 }

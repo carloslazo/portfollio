@@ -28,7 +28,7 @@ function NavBar(props) {
 
           <p className="Nav-children" style={{ fontWeight: "lighter" }}>
             {" "}
-            clazo@berkeley.edu{" "}
+            clz1104@gmail.com{" "}
           </p>
           <a href="https://github.com/carloslazo" target="_blank">
             <img src={github} />
