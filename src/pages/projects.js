@@ -41,7 +41,7 @@ class Projects extends Component {
 let designPage = {
   //genius App
   1: {
-    link: "https://genius-web-app.herokuapp.com/",
+    link: "https://genius-web-app.netlify.com/",
     github: "https://github.com/carloslazo/genius-web-app",
     picture: "genius2",
     technologies: "React, Javascript, HTML, CSS, Adobe XD",
@@ -168,7 +168,7 @@ let designPage = {
     }
   },
   2: {
-    link: "https://carlos-lazo-portfolio.herokuapp.com/",
+    link: "https://carlos-lazo.netlify.com/",
     github: "https://github.com/carloslazo/portfollio",
     picture: "portfollio",
     technologies: "React, Javascript, HTML, CSS, Adobe XD",
