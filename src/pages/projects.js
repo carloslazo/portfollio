@@ -20,6 +20,7 @@ class Projects extends Component {
         children={
           <>
             <ProjectCard
+              title={designPage[page]["title"]}
               link={designPage[page]["link"]}
               github={designPage[page]["github"]}
               picture={designPage[page]["picture"]}
@@ -41,6 +42,7 @@ class Projects extends Component {
 let designPage = {
   //genius App
   1: {
+    title: "Genius Annotations",
     link: "https://genius-web-app.netlify.com/",
     github: "https://github.com/carloslazo/genius-web-app",
     picture: "genius2",
@@ -168,6 +170,7 @@ let designPage = {
     }
   },
   2: {
+    title: "Portfolio",
     link: "https://carlos-lazo.netlify.com/",
     github: "https://github.com/carloslazo/portfollio",
     picture: "portfollio",
@@ -274,6 +277,7 @@ let designPage = {
     }
   },
   3: {
+    title: "Recipe App",
     link: "https://recipe-front-app.herokuapp.com/",
     github: "https://github.com/carloslazo/recipe-fontend",
     picture: "checkmark",
