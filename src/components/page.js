@@ -52,10 +52,7 @@ class Page extends Component {
           </a>
         </div>
         {/* Footer */}
-        <div className="Footer">
-          <span className="Footer-background" />
-          <span className="Footer-annotations" />
-        </div>
+        <div className="Footer"/>
       </div>
     );
   }

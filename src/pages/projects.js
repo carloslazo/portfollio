@@ -278,7 +278,7 @@ let designPage = {
   },
   3: {
     title: "Recipe App",
-    link: "https://recipe-front-app.herokuapp.com/",
+    link: "https://recipe-app-react.netlify.com/",
     github: "https://github.com/carloslazo/recipe-fontend",
     picture: "checkmark",
     technologies: "Ruby, Ruby on Rails, Postgresql, React, Javascript, HTML, CSS, Adobe XD",

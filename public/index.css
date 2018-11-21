@@ -87,8 +87,8 @@ body {
 }
 
 .Nav-children{
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
   display: inline;
   font-style: bold;
   transition: all 300ms linear;
@@ -170,23 +170,10 @@ body {
 .Footer{
   grid-column: 1;
   grid-row: 3;
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-template-rows: 1fr;
-}
-
-.Footer-background{
   background-color: #CAA7E5;
-  grid-column: 1;
-  grid-row: 1;
-  animation: fadein .7s;
-
+  width: 70%;
 }
 
-.Footer-annotations{
-  grid-column: 2;
-  grid-row: 1;
-}
 /* /////////////////////////////////Content///////////////////// */
 .Content{
   padding: 0 60px 60px 60px;
@@ -324,7 +311,7 @@ body {
 .Project-card-text p:nth-child(1){
   font-weight: bold;
   font-size: 40px;
-  margin-top: 0;
+  margin: 0;
 }
 /* //////Text container///// */
 .Project-cards-container{
@@ -391,17 +378,23 @@ body {
   animation: example .3s linear;
 }
 
+/* //////project-page-main///// */
+
+.project-page-main{
+  margin-top: 20px;;
+}
+
+
+
+/* //////project-page-main///// */
 
 
 
 
 
-
-
-
-
-
-
+.project-card-link{
+  font-weight: bold;
+}
 
 
 

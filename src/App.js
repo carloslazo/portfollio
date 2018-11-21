@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import About from "./pages/about.js";
 import Blog from "./pages/blog.js";
 import Projects from "./pages/projects.js";
+import ProjectsPage from "./pages/project-page.js";
 import NoMatch from "./pages/no-match.js";
 
 
@@ -13,6 +14,7 @@ class App extends Component {
         <Router>
           <Switch>
             <Route path="/blog" component={Blog} />
+            <Route exact path="/projects" component={ProjectsPage} />
             <Route path="/projects/:id" component={Projects} />
             <Route path="/about" component={About} />
             <Route exact path="/" component={About} />
