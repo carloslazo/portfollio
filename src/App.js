@@ -9,6 +9,7 @@ import NoMatch from "./pages/no-match.js";
 
 class App extends Component {
   render() {
+    initializeReactGA()
     return (
       <div>
         <Router>
