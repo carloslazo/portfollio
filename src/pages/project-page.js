@@ -29,17 +29,6 @@ class ProjectPage extends Component {
 }
 let designPage = [
   {
-    page: 3,
-    title: "Recipe App",
-    link: "https://recipe-app-react.netlify.com/",
-    github: "https://github.com/carloslazo/recipe-fontend",
-    picture: "checkmark",
-    technologies:
-      "Ruby, Ruby on Rails, Postgresql, React, Javascript, HTML, CSS, Adobe XD",
-    overview:
-      "A React and Ruby on Rails web application that allows users to look up recipes from a list of ingredients. Users can then save recipes and text the saved recipes to themselves."
-  },
-  {
     page: 1,
     title: "Genius Annotations",
     link: "https://genius-web-app.netlify.com/",
@@ -49,16 +38,16 @@ let designPage = [
     overview:
       "Using the Genius.com API I built a responsive React application that renders a grid of lyric annotations for easy viewing."
   },
-
   {
-    page: 2,
-    title: "Portfolio",
-    link: "https://carlos-lazo.netlify.com/",
-    github: "https://github.com/carloslazo/portfollio",
-    picture: "portfollio",
-    technologies: "React, Javascript, HTML, CSS, Adobe XD",
+    page: 3,
+    title: "Recipe App",
+    link: "https://recipe-app-react.netlify.com/",
+    github: "https://github.com/carloslazo/recipe-fontend",
+    picture: "checkmark",
+    technologies:
+      "Ruby, Ruby on Rails, Postgresql, React, Javascript, HTML, CSS, Adobe XD",
     overview:
-      "Built a responsive portfolio using React JS and no css frameworks. The main focus on will be the projects pages which will break down my project process based on design thinking principles."
+      "A React and Ruby on Rails web application that allows users to look up recipes from a list of ingredients. Users can then save recipes and text the saved recipes to themselves."
   }
 ];
 

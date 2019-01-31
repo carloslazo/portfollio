@@ -11,21 +11,15 @@ class About extends Component {
             <AboutCard />
             <div className="About-picture-grid">
               <ProjectCards
-                picture="checkmark"
-                text="View recipe project details"
-                page="3"
-                color="#7bac20"
-              />
-              <ProjectCards
                 picture="genius2"
                 text="View Genius 2.0 project details"
                 page="1"
               />
               <ProjectCards
-                picture="portfollio"
-                text="View portfollio project details"
-                page="2"
-                color="#2859A2"
+                picture="checkmark"
+                text="View recipe project details"
+                page="3"
+                color="#7bac20"
               />
             </div>
           </>
