@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import ReactGA from 'react-ga';
 import About from "./pages/about.js";
 import Blog from "./pages/blog.js";
 import Projects from "./pages/projects.js";
 import ProjectsPage from "./pages/project-page.js";
 import NoMatch from "./pages/no-match.js";
-
 
 class App extends Component {
   render() {
@@ -27,3 +27,8 @@ class App extends Component {
 }
 
 export default App;
+
+function initializeReactGA() {
+    ReactGA.initialize('UA-129159026-1');
+    ReactGA.pageview('/homepage');
+}
