@@ -52,7 +52,6 @@ class Page extends Component {
           </a>
         </div>
         {/* Footer */}
-        <div className="Footer"/>
       </div>
     );
   }

@@ -13,7 +13,7 @@ function NavBar(props) {
           style={{ textDecoration: "none", color: "black" }}
         >
           <p>Carlos Lazo</p>
-          <p id="nav-title">Front-end Developer</p>
+          <p id="nav-title">Software Developer</p>
         </a>
         <div className="Nav-bar">
           <NavLink
@@ -24,15 +24,6 @@ function NavBar(props) {
             className="Nav-children"
           >
             About
-          </NavLink>
-          <NavLink
-            to="/projects"
-            activeStyle={{
-              color: "#CAA7E5"
-            }}
-            className="Nav-children"
-          >
-            Projects
           </NavLink>
 
           <p className="Nav-children" style={{ fontWeight: "lighter" }}>

@@ -48,6 +48,17 @@ let designPage = [
       "Ruby, Ruby on Rails, Postgresql, React, Javascript, HTML, CSS, Adobe XD",
     overview:
       "A React and Ruby on Rails web application that allows users to look up recipes from a list of ingredients. Users can then save recipes and text the saved recipes to themselves."
+  },
+  {
+    page: 4,
+    title: "Humaaans web app",
+    link: "https://humaaans-web-app.netlify.com",
+    github: "https://github.com/carloslazo/recipe-fontend",
+    picture: "checkmark",
+    technologies:
+      "Ruby, Ruby on Rails, Postgresql, React, Javascript, HTML, CSS, Adobe XD",
+    overview:
+      "A React and Ruby on Rails web application that allows users to look up recipes from a list of ingredients. Users can then save recipes and text the saved recipes to themselves."
   }
 ];
 

@@ -16,14 +16,6 @@ function MobileMenu(props) {
       >
         About
       </NavLink>
-      <NavLink
-        to="/projects"
-        activeStyle={{
-          color: "#CAA7E5"
-        }}
-      >
-        Projects
-      </NavLink>
     </div>
     <div name="4th-row" className="Mobile-menu-4th-row" onClick={props.handleChange}></div>
   </div>;
