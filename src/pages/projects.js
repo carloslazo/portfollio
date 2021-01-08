@@ -37,7 +37,7 @@ let designPage = {
   //genius App
   1: {
     title: "Genius Annotations",
-    link: "https://genius-web-app.netlify.com/",
+    link: "https://music-annotation-web-app.netlify.app/",
     github: "https://github.com/carloslazo/genius-web-app",
     picture: "genius2",
     technologies: "React, Javascript, HTML, CSS, Adobe XD",
